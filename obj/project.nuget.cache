@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "bZRWyFM1W1TkgTHCkAPkkt/2a9AIbcE7t+v+ZLyF6qPMu1h4OwabJwLA83m63SzL1S3O/EiiAyLt7V9nwDVUaw==",
+  "success": true,
+  "projectFilePath": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj",
+  "expectedPackageFiles": [
+    "/Users/jameshussey/.nuget/packages/datetimeextensions/5.9.0/datetimeextensions.5.9.0.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/publicholiday/2.39.0/publicholiday.2.39.0.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit/2.8.1/xunit.2.8.1.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit.analyzers/1.14.0/xunit.analyzers.1.14.0.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit.assert/2.8.1/xunit.assert.2.8.1.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit.core/2.8.1/xunit.core.2.8.1.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit.extensibility.core/2.8.1/xunit.extensibility.core.2.8.1.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/xunit.extensibility.execution/2.8.1/xunit.extensibility.execution.2.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Project\Models\VehicleUtils.cs" />
+      <Compile Remove="Toll_Calculator_tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Remove="Toll_Calculator_tests\obj\Debug\net8.0\Toll_Calculator_tests.AssemblyInfo.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DateTimeExtensions" Version="5.9.0" />
+      <PackageReference Include="PublicHoliday" Version="2.39.0" />
+      <PackageReference Include="xunit" Version="2.8.1" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toll_Calculator_AFRY_JH", "Toll_Calculator_AFRY_JH.csproj", "{6902312B-37EB-46C3-A32B-4F0D5FE0955F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toll_Calculator_tests", "Toll_Calculator_tests\Toll_Calculator_tests.csproj", "{52567B5F-A74B-49ED-B785-81BEE7B143B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6902312B-37EB-46C3-A32B-4F0D5FE0955F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6902312B-37EB-46C3-A32B-4F0D5FE0955F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6902312B-37EB-46C3-A32B-4F0D5FE0955F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6902312B-37EB-46C3-A32B-4F0D5FE0955F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52567B5F-A74B-49ED-B785-81BEE7B143B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52567B5F-A74B-49ED-B785-81BEE7B143B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52567B5F-A74B-49ED-B785-81BEE7B143B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52567B5F-A74B-49ED-B785-81BEE7B143B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
