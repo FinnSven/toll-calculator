@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj": {}
+    "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj": {}
   },
   "projects": {
-    "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj": {
+    "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj",
+        "projectUniqueName": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
         "projectName": "Toll_Calculator_AFRY_JH",
-        "projectPath": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj",
+        "projectPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
         "packagesPath": "/Users/jameshussey/.nuget/packages/",
-        "outputPath": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/obj/",
+        "outputPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jameshussey/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "DateTimeExtensions": {
               "target": "Package",
               "version": "[5.9.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "PublicHoliday": {
               "target": "Package",

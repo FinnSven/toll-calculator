@@ -26,3 +26,72 @@
 /Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.pdb
 /Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.genruntimeconfig.cache
 /Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/obj/Debug/net8.0/ref/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.sourcelink.json
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.csproj.AssemblyReference.cache
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.AssemblyInfoInputs.cache
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.AssemblyInfo.cs
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.csproj.CoreCompileInputs.cache
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.sourcelink.json
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/refint/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.pdb
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Toll_Calculator_AFRY_JH
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.deps.json
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.runtimeconfig.json
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.pdb
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Castle.Core.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/DateTimeExtensions.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/Moq.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/PublicHoliday.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/xunit.abstractions.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/xunit.assert.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/xunit.core.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/xunit.execution.dotnet.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/de/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/es/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/ko/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/pt/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/ro-RO/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/vi/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Cal.BEC90FA7.Up2Date
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.genruntimeconfig.cache
+/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH 12/obj/Debug/net8.0/ref/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.csproj.AssemblyReference.cache
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.AssemblyInfoInputs.cache
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.AssemblyInfo.cs
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.csproj.CoreCompileInputs.cache
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.sourcelink.json
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/refint/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.pdb
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Toll_Calculator_AFRY_JH
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.deps.json
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.runtimeconfig.json
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Toll_Calculator_AFRY_JH.pdb
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Castle.Core.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/DateTimeExtensions.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/Moq.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/PublicHoliday.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/xunit.abstractions.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/xunit.assert.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/xunit.core.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/xunit.execution.dotnet.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/de/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/es/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/ko/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/pt/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/ro-RO/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/vi/DateTimeExtensions.resources.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Cal.BEC90FA7.Up2Date
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/Toll_Calculator_AFRY_JH.genruntimeconfig.cache
+/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/Debug/net8.0/ref/Toll_Calculator_AFRY_JH.dll

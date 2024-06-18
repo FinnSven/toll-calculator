@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <PackageReference Include="DateTimeExtensions" Version="5.9.0" />
+      <PackageReference Include="Moq" Version="4.20.70" />
       <PackageReference Include="PublicHoliday" Version="2.39.0" />
       <PackageReference Include="xunit" Version="2.8.1" />
     </ItemGroup>

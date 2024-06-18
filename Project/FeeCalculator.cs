@@ -1,15 +1,15 @@
-using Toll_Calculator_AFRY_JH.Project.Models;
+// File: Project/FeeCalculator.cs
 using System;
-using System.Linq;
 using System.Threading.Tasks;
+using Toll_Calculator_AFRY_JH.Project.Models;
 
 namespace Toll_Calculator_AFRY_JH.Project
 {
     public class FeeCalculator
     {
-        private readonly HolidayManager _holidayManager;
+        private readonly IHolidayManager _holidayManager;
 
-        public FeeCalculator(HolidayManager holidayManager)
+        public FeeCalculator(IHolidayManager holidayManager)
         {
             _holidayManager = holidayManager;
         }

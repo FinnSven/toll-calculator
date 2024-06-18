@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Toll_Calculator_AFRY_JH;
 using Toll_Calculator_AFRY_JH.Project;
 using Toll_Calculator_AFRY_JH.Project.Models;
 using Xunit;
 
-namespace TollCalculator.Tests
+namespace TollCalculatorTestsNamespace
 {
     public class AdditionalFeeCalculatorTests
     {

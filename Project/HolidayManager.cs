@@ -1,14 +1,34 @@
+// File: Project/HolidayManager.cs
+using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using PublicHoliday;
+
 namespace Toll_Calculator_AFRY_JH.Project
 {
-    public class HolidayManager // purpose is to give the program the capacity to update when public holidays fall
+    public class HolidayManager : IHolidayManager
     {
-        private readonly ConcurrentDictionary<int, SwedenPublicHoliday> publicHolidaysStrategy;
+        private readonly ConcurrentDictionary<int, SwedenPublicHoliday> _publicHolidaysStrategy;
+        private readonly SemaphoreSlim _lock = new SemaphoreSlim(1, 1);
+
         public HolidayManager()
         {
-            publicHolidaysStrategy = new ConcurrentDictionary<int, SwedenPublicHoliday>();
+            _publicHolidaysStrategy = new ConcurrentDictionary<int, SwedenPublicHoliday>();
         }
+
+        public async Task<bool> IsPublicHolidayAsync(DateTime date)
+        {
+            if (!_publicHolidaysStrategy.ContainsKey(date.Year))
+            {
+                await LoadHolidaysAsync(date.Year);
+            }
+
+            return _publicHolidaysStrategy.TryGetValue(date.Year, out var holidayStrategy)
+                   && holidayStrategy?.IsPublicHoliday(date) == true;
+        }
+
         public async Task InitializeAsync()
         {
             int currentYear = DateTime.UtcNow.Year;
@@ -17,34 +37,25 @@ namespace Toll_Calculator_AFRY_JH.Project
                 LoadHolidaysAsync(currentYear + 1)
             );
         }
+
         private async Task LoadHolidaysAsync(int year)
         {
             var holidaysStrategy = new SwedenPublicHoliday();
-            publicHolidaysStrategy.AddOrUpdate(year, holidaysStrategy, (key, oldValue) => holidaysStrategy);
-        }
-        public async Task<bool> IsPublicHolidayAsync(DateTime date)
-        {
-            if (!publicHolidaysStrategy.ContainsKey(date.Year))
-            {
-                await LoadHolidaysAsync(date.Year);
-            }
-
-            return publicHolidaysStrategy.TryGetValue(date.Year, out var holidayStrategy)
-                   && holidayStrategy?.IsPublicHoliday(date) == true;
+            _publicHolidaysStrategy.AddOrUpdate(year, holidaysStrategy, (key, oldValue) => holidaysStrategy);
+            await Task.CompletedTask;
         }
 
-        private SemaphoreSlim _lock = new SemaphoreSlim(1, 1);
         public async Task<IEnumerable<DateTime>> GetPublicHolidaysAsync(int year)
         {
-            if (!publicHolidaysStrategy.TryGetValue(year, out var holidayStrategy))
+            if (!_publicHolidaysStrategy.TryGetValue(year, out var holidayStrategy))
             {
                 await _lock.WaitAsync();
                 try
                 {
-                    if (!publicHolidaysStrategy.TryGetValue(year, out holidayStrategy))
+                    if (!_publicHolidaysStrategy.TryGetValue(year, out holidayStrategy))
                     {
                         await LoadHolidaysAsync(year);
-                        holidayStrategy = publicHolidaysStrategy[year];
+                        holidayStrategy = _publicHolidaysStrategy[year];
                     }
                 }
                 finally
@@ -52,7 +63,7 @@ namespace Toll_Calculator_AFRY_JH.Project
                     _lock.Release();
                 }
             }
-            
+
             return holidayStrategy.PublicHolidayNames(year).Keys;
         }
     }

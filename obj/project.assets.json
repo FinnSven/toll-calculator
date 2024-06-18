@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DateTimeExtensions/5.9.0": {
         "type": "package",
         "compile": {
@@ -35,6 +51,22 @@
           }
         }
       },
+      "Moq/4.20.70": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PublicHoliday/2.39.0": {
         "type": "package",
         "compile": {
@@ -45,6 +77,32 @@
         "runtime": {
           "lib/net6.0/PublicHoliday.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
           }
         }
       },
@@ -135,6 +193,30 @@
     }
   },
   "libraries": {
+    "Castle.Core/5.1.1": {
+      "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "type": "package",
+      "path": "castle.core/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle-logo.png",
+        "castle.core.5.1.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net462/Castle.Core.dll",
+        "lib/net462/Castle.Core.xml",
+        "lib/net6.0/Castle.Core.dll",
+        "lib/net6.0/Castle.Core.xml",
+        "lib/netstandard2.0/Castle.Core.dll",
+        "lib/netstandard2.0/Castle.Core.xml",
+        "lib/netstandard2.1/Castle.Core.dll",
+        "lib/netstandard2.1/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
     "DateTimeExtensions/5.9.0": {
       "sha512": "5k5+1bd0Nv98zawiQwvXSr1D/Ih2EAq82DH/UdWoF7dqGz45DH2naVdQp5jF+0aL2H0rc6JcQq+sa2Uzfs44GQ==",
       "type": "package",
@@ -162,6 +244,27 @@
         "lib/netstandard2.0/vi/DateTimeExtensions.resources.dll"
       ]
     },
+    "Moq/4.20.70": {
+      "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
+      "type": "package",
+      "path": "moq/4.20.70",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/Moq.dll",
+        "lib/net462/Moq.xml",
+        "lib/net6.0/Moq.dll",
+        "lib/net6.0/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "lib/netstandard2.1/Moq.dll",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.20.70.nupkg.sha512",
+        "moq.nuspec",
+        "readme.md"
+      ]
+    },
     "PublicHoliday/2.39.0": {
       "sha512": "t4B8+2XMkrtOsfGCSjgyMZrBaKqD2PcIuyxU35N39CFV382NYY8jXgTcXk5JRBYXuZqsXWeuSD6Ic0U39iusfQ==",
       "type": "package",
@@ -184,6 +287,37 @@
         "lib/netstandard2.1/PublicHoliday.xml",
         "publicholiday.2.39.0.nupkg.sha512",
         "publicholiday.nuspec"
+      ]
+    },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.EventLog.dll",
+        "lib/net461/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "xunit/2.8.1": {
@@ -317,6 +451,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "DateTimeExtensions >= 5.9.0",
+      "Moq >= 4.20.70",
       "PublicHoliday >= 2.39.0",
       "xunit >= 2.8.1"
     ]
@@ -327,11 +462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj",
+      "projectUniqueName": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
       "projectName": "Toll_Calculator_AFRY_JH",
-      "projectPath": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj",
+      "projectPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
       "packagesPath": "/Users/jameshussey/.nuget/packages/",
-      "outputPath": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/obj/",
+      "outputPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jameshussey/.nuget/NuGet/NuGet.Config"
@@ -361,6 +496,10 @@
           "DateTimeExtensions": {
             "target": "Package",
             "version": "[5.9.0, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.70, )"
           },
           "PublicHoliday": {
             "target": "Package",

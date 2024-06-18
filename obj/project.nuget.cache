@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bZRWyFM1W1TkgTHCkAPkkt/2a9AIbcE7t+v+ZLyF6qPMu1h4OwabJwLA83m63SzL1S3O/EiiAyLt7V9nwDVUaw==",
+  "dgSpecHash": "UOysNcedZ8mVbAxvcoWLQI5tOSaK7rPrOLiM64x1zRV8nhUnlukbLacInS31ikbiqxXkrpM7JkmLsfT8Krhe0w==",
   "success": true,
-  "projectFilePath": "/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_AFRY_JH.csproj",
+  "projectFilePath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
   "expectedPackageFiles": [
+    "/Users/jameshussey/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/jameshussey/.nuget/packages/datetimeextensions/5.9.0/datetimeextensions.5.9.0.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/moq/4.20.70/moq.4.20.70.nupkg.sha512",
     "/Users/jameshussey/.nuget/packages/publicholiday/2.39.0/publicholiday.2.39.0.nupkg.sha512",
+    "/Users/jameshussey/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/jameshussey/.nuget/packages/xunit/2.8.1/xunit.2.8.1.nupkg.sha512",
     "/Users/jameshussey/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
     "/Users/jameshussey/.nuget/packages/xunit.analyzers/1.14.0/xunit.analyzers.1.14.0.nupkg.sha512",

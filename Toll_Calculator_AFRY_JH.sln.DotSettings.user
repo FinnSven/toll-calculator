@@ -2,9 +2,16 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/Users/jameshussey/.nuget/packages/nager.date/2.4.0/lib/net8.0/Nager.Date.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=682082ed_002Da2d0_002D4e0d_002Da53c_002D725db633f4ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Toll_Calculator_tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Project Location="/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_tests" Presentation="&amp;lt;Toll_Calculator_tests&amp;gt;" /&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33160729_002Da242_002D40bb_002D9d49_002D4f04f9696e86/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FeeCalculatorTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::52567B5F-A74B-49ED-B785-81BEE7B143B6::net8.0::TollCalculatorTestsNamespace.FeeCalculatorTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c5d009f7_002D89d7_002D4397_002D84b6_002D6c41ecbba1dd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculateFee_ForCarWithMultipleEntriesInOneHour_ReturnsMaxSingleFee" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Project Location="/Users/jameshussey/RiderProjects/Toll_Calculator_AFRY_JH/Toll_Calculator_tests" Presentation="&amp;lt;Toll_Calculator_tests&amp;gt;" /&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=682082ed_002Da2d0_002D4e0d_002Da53c_002D725db633f4ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Toll_Calculator_tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::52567B5F-A74B-49ED-B785-81BEE7B143B6::net8.0::TollCalculatorTestsNamespace.FeeCalculatorTests.GetTollFeeAsync_ShouldReturnCorrectFee_WhenNotHoliday&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c5d009f7_002D89d7_002D4397_002D84b6_002D6c41ecbba1dd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculateFee_ForCarWithMultipleEntriesInOneHour_ReturnsMaxSingleFee" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_tests" Presentation="&amp;lt;Toll_Calculator_tests&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
