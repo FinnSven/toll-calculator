@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_tests/Toll_Calculator_tests.csproj": {}
+  },
+  "projects": {
+    "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_AFRY_JH.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_AFRY_JH.csproj",
+        "projectName": "Toll_Calculator_AFRY_JH",
+        "projectPath": "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_AFRY_JH.csproj",
+        "packagesPath": "/Users/jameshussey/.nuget/packages/",
+        "outputPath": "/Users/jameshussey/RiderProjects/toll-calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jameshussey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DateTimeExtensions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "PublicHoliday": {
+              "target": "Package",
+              "version": "[2.39.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_tests/Toll_Calculator_tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_tests/Toll_Calculator_tests.csproj",
+        "projectName": "Toll_Calculator_tests",
+        "projectPath": "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_tests/Toll_Calculator_tests.csproj",
+        "packagesPath": "/Users/jameshussey/.nuget/packages/",
+        "outputPath": "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jameshussey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_AFRY_JH.csproj": {
+                "projectPath": "/Users/jameshussey/RiderProjects/toll-calculator/Toll_Calculator_AFRY_JH.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DateTimeExtensions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "PublicHoliday": {
+              "target": "Package",
+              "version": "[2.39.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
