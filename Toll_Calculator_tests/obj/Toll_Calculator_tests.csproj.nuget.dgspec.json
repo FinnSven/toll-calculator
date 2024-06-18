@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_tests/Toll_Calculator_tests.csproj": {}
+    "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_tests/Toll_Calculator_tests.csproj": {}
   },
   "projects": {
-    "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj": {
+    "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_AFRY_JH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
+        "projectUniqueName": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_AFRY_JH.csproj",
         "projectName": "Toll_Calculator_AFRY_JH",
-        "projectPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj",
+        "projectPath": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_AFRY_JH.csproj",
         "packagesPath": "/Users/jameshussey/.nuget/packages/",
-        "outputPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/obj/",
+        "outputPath": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jameshussey/.nuget/NuGet/NuGet.Config"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_tests/Toll_Calculator_tests.csproj": {
+    "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_tests/Toll_Calculator_tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_tests/Toll_Calculator_tests.csproj",
+        "projectUniqueName": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_tests/Toll_Calculator_tests.csproj",
         "projectName": "Toll_Calculator_tests",
-        "projectPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_tests/Toll_Calculator_tests.csproj",
+        "projectPath": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_tests/Toll_Calculator_tests.csproj",
         "packagesPath": "/Users/jameshussey/.nuget/packages/",
-        "outputPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_tests/obj/",
+        "outputPath": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jameshussey/.nuget/NuGet/NuGet.Config"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj": {
-                "projectPath": "/Users/jameshussey/RiderProjects/updated_toll_calculator_project_v17/Toll_Calculator_AFRY_JH.csproj"
+              "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_AFRY_JH.csproj": {
+                "projectPath": "/Users/jameshussey/TollCalculatorReviewedAfterFeedback/Toll_Calculator_AFRY_JH.csproj"
               }
             }
           }
