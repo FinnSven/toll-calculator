@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Toll_Calculator_AFRY_JH
-build_property.ProjectDir = /Users/jameshussey/TollCalculatorReviewedAfterFeedback/
+build_property.ProjectDir = /Users/jameshussey/Documents/GitHub/toll-calculator/TollCalculatorReviewedAfterFeedback/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
